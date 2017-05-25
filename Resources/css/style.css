@@ -1,7 +1,9 @@
-html {
+html,
+body {
   font-size: 18px;
   font-family: Helvetica;
 }
+
 
 /* Title Bar */
 .title-bar {
@@ -27,6 +29,7 @@ html {
 .title p {
   padding: 0.66rem 1rem;
 }
+
 
 /* Headline */
 .headline {
@@ -88,8 +91,8 @@ html {
 /* Featured Items */
 .main {
   width: 960px;
-  background-color: grey;
-  margin: 0 auto;
+  margin: 3rem auto;
+
 }
 
 .featured {
@@ -100,7 +103,68 @@ html {
 .item {
   width: 30%;
   border: 4px solid black;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
+.item img {
+  height: 9rem;
+  margin: 2rem auto;
+}
+
+.glasses img {
+  height: 9rem;
+  width: 90%;
+}
+
+.item p {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 0.5rem 0;
+}
+
+
 /* Store Info */
+.store-info {
+  width: 960px;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-item {
+  width: 35%;
+}
+
+.info-title {
+  color: white;
+  background-color: black;
+  padding: 1rem 2rem;
+  margin-bottom: 0.5rem;
+}
+
+
 /* Footer */
+
+.footer {
+  background-color: black;
+  height: 5rem;
+  width: 100%;
+  color: white;
+  bottom: 0px;
+  position: fixed;
+  display: flex;
+  align-items: center;
+}
+
+.copyright {
+  width: 960px;
+  margin: 0 auto;
+}
+
+
 /* Response Coding */
