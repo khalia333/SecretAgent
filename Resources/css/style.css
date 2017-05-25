@@ -1,0 +1,37 @@
+html {
+  font-size: 18px;
+  font-family: Helvetica;
+}
+
+/* Title Bar */
+.title-bar {
+  width: 100%;
+  background-color: black;
+  height: auto;
+}
+
+.title {
+  width: 960px;
+  margin: 0 auto;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: inline;
+  height: 1.5rem;
+  padding-left: 0.5rem;
+}
+
+.title p {
+  padding: 0.66rem 1rem;
+}
+
+/* Headline */
+
+/* Navigation */
+/* Featured Items */
+/* Store Info */
+/* Footer */
+/* Response Coding */
