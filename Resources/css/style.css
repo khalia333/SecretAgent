@@ -29,7 +29,34 @@ html {
 }
 
 /* Headline */
+.headline {
+  height: 25rem;
+  background-image: url(../images/moto.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
+.new-arrival {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.arrival-text {
+  color: white;
+  font-weight: bold;
+  width: 20rem;
+  background-color: black;
+  margin-top: 9rem;
+  padding: 2rem 3rem;
+}
+
+.arrival-text h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 0.25rem;
+}
 /* Navigation */
 /* Featured Items */
 /* Store Info */
